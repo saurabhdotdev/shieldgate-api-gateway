@@ -1,0 +1,37 @@
+# ShieldGate API Gateway
+
+ShieldGate is a configurable API gateway built with Node.js, Express, TypeScript, Redis, and PostgreSQL.  
+It supports API key authentication and rate limiting using Redis and a sliding window algorithm.
+
+## Features
+
+- API key generation and secure storage (hashed)
+- API key authentication middleware
+- Database-driven rate limits (custom per API key)
+- Redis-backed sliding window rate limiting
+- Protected endpoints with flexible limits
+
+## Tech Stack
+
+- Node.js + TypeScript
+- Express.js
+- PostgreSQL via TypeORM
+- Redis for rate limiting
+- Lua for atomic sliding window
+
+## Quick Start
+
+### Requirements
+
+- Node.js
+- PostgreSQL
+- Redis
+
+
+### Setup
+
+1. Clone the repo
+
+```bash
+git clone https://github.com/saurabhdotdev/shieldgate-api-gateway.git
+cd shieldgate-api-gateway
