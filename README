@@ -17,7 +17,6 @@ It supports API key authentication and rate limiting using Redis and a sliding w
 - Express.js
 - PostgreSQL via TypeORM
 - Redis for rate limiting
-- Lua for atomic sliding window
 
 ## Quick Start
 
