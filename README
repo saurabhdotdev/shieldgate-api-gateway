@@ -1,7 +1,7 @@
 # ShieldGate API Gateway
 
 ShieldGate is a configurable API gateway built with Node.js, Express, TypeScript, Redis, and PostgreSQL.  
-It supports API key authentication and rate limiting using Redis and a sliding window algorithm.
+It supports API key authentication and rate limiting using Redis and a sliding window algorithm. More features to be added in the future .
 
 ## Features
 
